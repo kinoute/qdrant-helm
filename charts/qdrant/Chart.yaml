@@ -13,13 +13,13 @@ maintainers:
     url: https://github.com/qdrant
 icon: https://qdrant.github.io/qdrant-helm/logo_with_text.svg
 type: application
-version: 1.11.0
-appVersion: v1.11.0
+version: 1.11.1
+appVersion: v1.11.1
 annotations:
   artifacthub.io/category: database
   artifacthub.io/changes: |
     - kind: added
-      description: Update Qdrant to v1.11.0
+      description: Update Qdrant to v1.11.1
     - kind: fixed
       description: Apply additional label to headless Service + ServiceMonitor to avoid duplicate scraping
       links:
